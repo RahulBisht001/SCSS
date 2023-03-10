@@ -5,13 +5,6 @@
 ## 😕 >> Why to use Scss ?
 
 
-## Table of Contents
-
-- [What is Difference between Sass and Scss](## What is Difference between Sass and Scss ?)
-  - [Differences](# Differences)
-- [# Powers of Scss](# 💪🏻 Powers of Scss)
-- [License](#license)
-
 
 
 
@@ -31,7 +24,6 @@ ___________________________________________
 
 
 # 💪🏻 Powers of Scss
-
 
 
 
