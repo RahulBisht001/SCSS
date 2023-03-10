@@ -5,9 +5,6 @@
 
 ### Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.
 
-## 😕 >> Why to use Scss ?
-
-
 
 ##  🤔 ❓ What is Difference between Sass and Scss ?
    `Sass (Syntactically Awesome Style Sheets)`  and  `SCSS (Sassy CSS)` are both preprocessors
