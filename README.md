@@ -21,3 +21,54 @@ ___________________________________________
 
 
 # 💪🏻 Powers of Scss
+
+
+### Operators 
+ Scss provides a number of operators that can be used for mathematical calculations, 
+string manipulation, and logical operations. Here are some of the most commonly used
+operators in SCSS:
+
+* Mathematical Operators:
+Addition (+)
+Subtraction (-)
+Multiplication (*)
+Division (/)
+Modulus (%)
+These operators can be used to perform basic arithmetic operations, such as adding, subtracting, multiplying, dividing, and finding the remainder of a division operation.
+
+* Comparison Operators:
+Equal to (==)
+Not equal to (!=)
+Greater than (>)
+Less than (<)
+Greater than or equal to (>=)
+Less than or equal to (<=)
+These operators are used to compare values and return a Boolean (true or false) value based on the comparison result.
+
+* Logical Operators:
+And (&&)
+Or (||)
+Not (!)
+These operators are used to combine multiple conditions and return a Boolean value based on the logical result.
+
+* String Operators:
+
+Concatenation (#{$variable} + "text")
+The concatenation operator is used to combine multiple strings into a single string value. This is useful for creating dynamic CSS classes and for constructing complex selectors.
+
+These operators can be used to perform a wide range of operations in SCSS, from simple arithmetic calculations to complex conditional statements. By using these operators effectively, you can create more efficient, maintainable, and scalable stylesheets.
+
+
+
+```
+rem = px / base
+
+where "base" is the font-size of the root element (typically the <html> element) in your CSS.
+
+eg. if your base font-size is set to 16px, and you want to convert 24px to rems,
+the calculation would be:
+
+rem = 24px / 16px = 1.5rem
+
+So, 24px is equivalent to 1.5rem in this case.
+```
