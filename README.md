@@ -5,6 +5,16 @@
 ## 😕 >> Why to use Scss ?
 
 
+## Table of Contents
+
+- [What is Difference between Sass and Scss](## What is Difference between Sass and Scss ?)
+  - [Differences](# Differences)
+- [# Powers of Scss](# 💪🏻 Powers of Scss)
+- [License](#license)
+
+
+
+
 ##  🤔 ❓ What is Difference between Sass and Scss ?
    `Sass (Syntactically Awesome Style Sheets)`  and  `SCSS (Sassy CSS)` are both preprocessors
 for CSS.  They both extend the basic functionality of CSS by adding variables, mixins, nesting, and other features to make CSS more powerful and easier to write.
@@ -196,3 +206,11 @@ so we pass that value to the mixin and write clean code
 
 ## 5. Partials
 
+   in Scss partials are files that contain reusable blocks of CSS code, such as mixins or 
+variables. Partial files have filenames that begin with an underscore (e.g., `_partial.scss`) to indicate that they should not be compiled into a standalone CSS file. Instead, they are typically imported into other SCSS files using the `@import` directive.
+
+You just need to write the import statement to use the partial files
+
+``` scss
+@import 'colors';
+```
