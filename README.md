@@ -23,7 +23,9 @@ ___________________________________________
 # 💪🏻 Powers of Scss
 
 
-### Operators 
+
+
+###  > Operators 
  Scss provides a number of operators that can be used for mathematical calculations, 
 string manipulation, and logical operations. Here are some of the most commonly used
 operators in SCSS:
