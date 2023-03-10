@@ -92,7 +92,7 @@ $base-font-size: 16px;
 
 Once you've defined a variable, you can use it in your CSS using the #{$variable-name}
 
-```
+``` scss
 body {
   font-size: $base-font-size;
 }
@@ -107,7 +107,7 @@ Now we can use variables in css3 although.
 create more organized and readable stylesheets. Here's an example of how to
 nest selectors in SCSS:
 
-``` css
+``` scss
 nav {
   ul {
     margin: 0;
