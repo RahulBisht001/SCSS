@@ -1,34 +1,50 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
 $bg-color: #d2e1ff;
+$bg-color-hover:rgb(0, 0, 0);
 $text-shadow: #ff49de;
-$text-color:#9d57ff;
+$text-color: #9d57ff;
+$tex-color-hover:#faff74;
+$text-shadow-hover:#1100fa;
 
-body{
+
+body {
     background-color: $bg-color;
-    font-family: 'Rubik', sans-serif;
+    font-family: "Rubik", sans-serif;
 }
 
-.main_header{
+.main_header {
     width: 100vw;
     height: 100vh;
-    display: grid;
-    place-items: center;
-}
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
 
-h1{
-    font-size: 2rem*2;  // ( Scss Operators)
-    font-family: 'Pacifico', cursive;
-    letter-spacing: .3ch;
-    color: $text-color;
-   text-shadow:  0 0 0.2em $text-shadow;
+    h1 {
+        font-size: 2rem * 2; // ( Scss Operators)
+        font-family: "Pacifico", cursive;
+        letter-spacing: 0.3ch;
+        color: $text-color;
+        text-shadow: 0 0 0.2em $text-shadow;
+        &:hover{
+          color: $tex-color-hover;
+          cursor: pointer;
+          text-shadow: 0 0 0.2em $text-shadow-hover;
+        }
+    }
+    p {
+        letter-spacing: 0.1ch;
+        font-size: 14px;
+        font-weight: 600;
+    }
 }
