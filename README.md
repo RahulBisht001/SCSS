@@ -11,11 +11,7 @@ The primary difference between Sass and SCSS is the syntax. Sass uses the `.sass
 
 ### Differences
 1. Syntax: As mentioned above, Sass has a whitespace-based syntax while SCSS has a syntax similar to CSS.
-
 2. File extension: Sass files have a .sass extension while SCSS files have a .scss extension.
-
 3. Compatibility: SCSS is more widely used and supported by various tools and libraries.
-
 4. Learning curve: Sass has a steeper learning curve due to its unique syntax, while SCSS is easier to learn for those who are familiar with CSS.
-
 5. Migration: Migrating from Sass to SCSS is relatively easy, but the reverse migration can be more challenging.
