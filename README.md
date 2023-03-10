@@ -129,3 +129,64 @@ nav {
 }
 
 ```
+
+
+###  4.> Mixin
+
+   In SCSS, `mixins` are reusable pieces of code that can be included in other styles.
+They are defined using the `@mixin` directive, and can be included in other styles using 
+the `@include` directive.
+
+Here are some Examples of mixin.
+```scss
+@mixin border-radius($radius) {
+  border-radius: $radius;
+}
+```
+
+```scss
+.titleBox{
+  @include border-radius(5px);
+  color: white;
+}
+```
+
+As we know sometime it can happen that whatever common properties we add in mixin .
+for any special element we want certain changes for property of that element.
+
+You can achieve it via 2 methods.
+
+1. Using overriding the property in that element.
+
+```scss
+@mixin flexboxProp{
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+   flex-direction: column;
+}
+ h1{
+   @include flexboxProp();
+   flex-direction: column-reverse;
+
+ }
+```
+
+2. Second method is via argument passing.
+here for the element with box class we want different border radius.
+so we pass that value to the mixin and write clean code
+
+```scss
+@mixin border-radius($radius) {
+  border-radius: $radius;
+}
+```
+
+```scss
+.box {
+  @include border-radius(10px);
+  background-color: blue;
+  color: white;
+}
+```
