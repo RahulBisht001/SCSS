@@ -1,7 +1,7 @@
 # SCSS
 _______________
-*  CSS with superpowers
-Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.
+#### CSS with superpowers
+#### Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.
 
 ## What is Difference between Sass and Scss ?
    `Sass (Syntactically Awesome Style Sheets)`  and  `SCSS (Sassy CSS)` are both preprocessors
