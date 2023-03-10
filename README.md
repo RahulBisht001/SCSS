@@ -1,6 +1,6 @@
 
 
-<img text-align="center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/1280px-Sass_Logo_Color.svg.png" alt="Girl in a jacket" width="250" height="150">
+<img align="center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/1280px-Sass_Logo_Color.svg.png" alt="Girl in a jacket" width="250" height="150">
 
 
 # Scss [ CSS with superpowers ]
