@@ -1,9 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
+    background-color: #d2e1ff;
     font-family: 'Rubik', sans-serif;
 }
 
+.main_header{
+    width: 100vw;
+    height: 100vh;
+    display: -ms-grid;
+    display: grid;
+    place-items: center;
+}
+
 h1{
-    color: #9950dd;
+    font-size: 50px;
+    font-family: 'Pacifico', cursive;
+    letter-spacing: .3ch;
+    color: #7e57ff;
+   text-shadow:  0 0 0.2em #8f84f8;
 }
