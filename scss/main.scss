@@ -16,7 +16,6 @@ body{
 .main_header{
     width: 100vw;
     height: 100vh;
-    display: -ms-grid;
     display: grid;
     place-items: center;
 }
@@ -25,6 +24,6 @@ h1{
     font-size: 50px;
     font-family: 'Pacifico', cursive;
     letter-spacing: .3ch;
-    color: #7e57ff;
-   text-shadow:  0 0 0.2em #8f84f8;
+    color: #9d57ff;
+   text-shadow:  0 0 0.2em #ff6ee4;
 }
