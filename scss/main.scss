@@ -1,6 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+//  Font family (Google Fonts)
 
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+
+// scss partial file
+@import "mixin";
+@import "variables";
 
 * {
     margin: 0;
@@ -8,24 +14,9 @@
     box-sizing: border-box;
 }
 
-$bg-color: #d2e1ff;
-$bg-color-hover: rgb(0, 0, 0);
-$text-shadow: #ff49de;
-$text-color: #9d57ff;
-$tex-color-hover: #faff74;
-$text-shadow-hover: #1100fa;
-
 body {
     background-color: $bg-color;
     font-family: "Rubik", sans-serif;
-}
-
-@mixin flexboxProp{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    flex-direction: column;
 }
 
 .main_header {

@@ -76,7 +76,7 @@ So, 24px is equivalent to 1.5rem in this case.
 ```
 
 
-###  2.> Variables
+###  2. Variables
 
 Variables in SCSS allow you to define a value once and reuse it throughout 
 your stylesheet. Here's how to create a variable in SCSS:
@@ -101,7 +101,7 @@ body {
 Now we can use variables in css3 although.
 
 
-###  3.> Nesting
+###  3. Nesting
 
   Nesting in SCSS allows you to nest selectors inside one another to 
 create more organized and readable stylesheets. Here's an example of how to
@@ -131,7 +131,7 @@ nav {
 ```
 
 
-###  4.> Mixin
+###  4. Mixin
 
    In SCSS, `mixins` are reusable pieces of code that can be included in other styles.
 They are defined using the `@mixin` directive, and can be included in other styles using 
@@ -177,6 +177,8 @@ You can achieve it via 2 methods.
 here for the element with box class we want different border radius.
 so we pass that value to the mixin and write clean code
 
+`Note:` Order matter in argument passing.
+
 ```scss
 @mixin border-radius($radius) {
   border-radius: $radius;
@@ -190,3 +192,7 @@ so we pass that value to the mixin and write clean code
   color: white;
 }
 ```
+
+
+## 5. Partials
+
