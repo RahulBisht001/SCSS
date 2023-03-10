@@ -25,7 +25,7 @@ ___________________________________________
 
 
 
-###  > Operators 
+###  1.> Operators 
  Scss provides a number of operators that can be used for mathematical calculations, 
 string manipulation, and logical operations. Here are some of the most commonly used
 operators in SCSS:
@@ -73,4 +73,59 @@ the calculation would be:
 rem = 24px / 16px = 1.5rem
 
 So, 24px is equivalent to 1.5rem in this case.
+```
+
+
+###  2.> Variables
+
+Variables in SCSS allow you to define a value once and reuse it throughout 
+your stylesheet. Here's how to create a variable in SCSS:
+
+``` scss
+$variable-name: value;
+```
+
+
+``` scss
+$base-font-size: 16px;
+```
+
+Once you've defined a variable, you can use it in your CSS using the #{$variable-name}
+
+```
+body {
+  font-size: $base-font-size;
+}
+```
+
+Now we can use variables in css3 although.
+
+
+###  3.> Nesting
+
+  Nesting in SCSS allows you to nest selectors inside one another to 
+create more organized and readable stylesheets. Here's an example of how to
+nest selectors in SCSS:
+
+``` css
+nav {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    li {
+      display: inline-block;
+
+      a {
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
 ```

@@ -8,8 +8,13 @@
     box-sizing: border-box;
 }
 
+
+$bg-color: #d2e1ff;
+$text-shadow: #ff49de;
+$text-color:#9d57ff;
+
 body{
-    background-color: #d2e1ff;
+    background-color: $bg-color;
     font-family: 'Rubik', sans-serif;
 }
 
@@ -24,6 +29,6 @@ h1{
     font-size: 2rem*2;  // ( Scss Operators)
     font-family: 'Pacifico', cursive;
     letter-spacing: .3ch;
-    color: #9d57ff;
-   text-shadow:  0 0 0.2em #ff6ee4;
+    color: $text-color;
+   text-shadow:  0 0 0.2em $text-shadow;
 }
